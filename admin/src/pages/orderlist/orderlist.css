@@ -1,0 +1,45 @@
+.order-c{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.oreder-item{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    border: 1px solid rgb(190, 122, 110);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.myorders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.btn>button{
+    height: 35px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    
+    background-color: rgb(60, 54, 54);
+    margin-bottom: 20px;
+    cursor: pointer;
+   
+}
+option{
+    font-size: 16px;
+}
+section{
+    height: 30px;
+}

@@ -1,0 +1,59 @@
+h1{
+    color: tomato;
+}
+.login-popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color:#00000090;
+    display: grid;
+}
+.login-popup-form{
+    place-self:center;
+    width: max(33vh,389);
+    color: #080808;
+    background-color: white;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 20px;
+    width: 40%;
+    border-radius: 8px;
+    font-size: 20px;
+}
+#btn{
+    
+    font-size: 20px;
+    border: 1px solid #c9c9c9;
+    width: 100%;
+    background-color: tomato
+}
+
+.align-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.l-title{
+    margin-bottom: 5%;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.login-popup-input{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.login-popup-input >input{
+  height: 40px;
+    outline: none;
+    border: 1px solid #c9c9c9
+}
+span{
+    color: red;
+    font-weight: 400;
+    cursor: pointer;
+}

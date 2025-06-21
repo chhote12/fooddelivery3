@@ -1,0 +1,22 @@
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.item-c{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+
+
+}
+.head{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.curser{
+    cursor: pointer;
+}

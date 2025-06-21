@@ -1,0 +1,79 @@
+.placeorder-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.left>div{
+    display: flex;
+    width: 100%;
+   margin-bottom: 2%;
+}
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    
+}
+.zip-country>input{
+    width: 50%;
+    height: 30px;
+    margin: .4%;
+}
+.city-state>input{
+    width: 50%;
+    height: 30px;
+    margin: .4%;
+}
+.first-last>input{
+    width: 50%;
+    height: 30px;
+    margin: .4%;
+}
+.email>input{
+    width: 100%;
+    height: 30px;
+    margin: .4%;
+}
+.street>input{
+    height: 30px;
+    width: 100%;
+    margin: .4%;
+}
+.phone>input{
+    width:100%;
+    height: 30px;
+    margin: .4%;
+}
+.left1{
+    display: flex;
+    justify-content: space-between;
+}
+.left2{
+    display: flex;
+    justify-content: space-between;
+}
+.totalamount{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+}
+.totalamount>p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.pay>button{
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: black;
+
+}

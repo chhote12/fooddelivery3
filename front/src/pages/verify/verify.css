@@ -1,0 +1,32 @@
+.verify{
+    min-height: 60vh;
+    display: grid;
+}
+
+.verify .spinner {
+    width: 100px;
+    height: 100px;
+    place-self: center;
+    border-radius: 50%;
+    background: conic-gradient(
+        #000000 10%, /* Dark black mouth (adjust % for size) */
+        transparent 0 /* Rest is transparent */
+    );
+    mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 5px),
+        #fff calc(100% - 5px)
+    );
+    -webkit-mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 5px),
+        #fff calc(100% - 5px)
+    );
+    animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}

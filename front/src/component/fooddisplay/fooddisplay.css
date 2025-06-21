@@ -1,0 +1,12 @@
+#item-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+#food-display{
+    
+    justify-content: center;
+    margin-top: 3%;
+}
