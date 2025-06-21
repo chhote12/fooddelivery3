@@ -55,14 +55,8 @@ STRIPE_SECRET=your_stripe_key
 ```
 
 ##  Contact
-For support: [singhchhote695@gmail.com](mailto:singhchhote695@gmail.com)
+For support and query: [singhchhote695@gmail.com](mailto:singhchhote695@gmail.com)
 ```
 
-Key improvements:
-- More compact layout for better readability
-- Added emojis for visual scanning
-- Simplified the setup steps
-- Clearer environment variables section
-- Maintained all critical information
 
-Just copy and paste this entire block into your README.md file - it's ready to use on GitHub!
+
