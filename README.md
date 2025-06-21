@@ -49,7 +49,7 @@ fooddelivery3/
 Create `.env` in `/backend` with:
 ```env
 PORT=4000
-MONGO_URL=mongodb://localhost:27017/fooddelivery
+MONGO_URL=your_mongo_url
 JWT_TOKEN_SECRET=your_secure_secret
 STRIPE_SECRET=your_stripe_key
 ```
