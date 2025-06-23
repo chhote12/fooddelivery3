@@ -24,7 +24,7 @@ export default function Addfood() {
 
 
     }
-    const URLs=url;
+    const URLs=url; //url
 
     const handlesubmit=async(e)=>{
         e.preventDefault();
