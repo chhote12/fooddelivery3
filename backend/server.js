@@ -9,7 +9,8 @@ import cartRouter from "./routes/cartroute.js";
 //temp
 import orderRouter from "./routes/orederroute.js";
 app.use(express.json())
-app.use(cors());
+app.use(cors({ origin: '*' }));
+
 connetionfunction();
 app.use('/images', express.static('uploads'));
 app.use('/api/food',foodrouter);
