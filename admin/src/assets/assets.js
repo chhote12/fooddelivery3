@@ -17,4 +17,4 @@ export const assets ={
     chhote
 }
 
-export const url = 'http://localhost:4000'
+export const url = 'https://fooddelivery3-1.onrender.com'
