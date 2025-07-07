@@ -40,7 +40,7 @@ try {
         quantity:1,
         
     })
-    const frontendurl="http://localhost:5175"
+    const frontendurl="https://fooddelivery3-2-frontend.onrender.com"
 
     const session=await stripe.checkout.sessions.create({
 line_items:line_items,
