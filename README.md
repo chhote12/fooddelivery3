@@ -2,7 +2,7 @@
 
 The application is fully deployed on **Render**.
 
- **Frontend URL**:     [https://fooddelivery3-2-frontend.onrender.com/]
+ **Frontend URL**:    [https://fooddelivery3-2-frontend.onrender.com/]
 
 
 
