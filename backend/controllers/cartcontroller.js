@@ -1,6 +1,6 @@
 import express from "express"
 import userModel from "../models/usermodel.js"
-import { useReducer } from "react";
+
 
 //add to itme in user cart 
 const addtocart =async(req,res)=>{
