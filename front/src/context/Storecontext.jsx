@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import axios from 'axios'
 
 export const Storecontext = createContext(null);
-const url="http://localhost:4000";
+const url="https://fooddelivery3-1.onrender.com";
 const StorecontextProvider = (props) => {
     const [caritem,setcartitem]=useState({});
     const [food_list,setfood_list]=useState([]);
