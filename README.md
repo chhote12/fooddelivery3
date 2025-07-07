@@ -1,5 +1,12 @@
-Deployed the application on Render
-lint->    https://fooddelivery3-2-frontend.onrender.com/
+##  Deployment
+
+The application is fully deployed on **Render**.
+
+ **Frontend URL**:     [https://fooddelivery3-3-admin.onrender.com]
+
+
+
+
 
 
 
