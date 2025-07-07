@@ -8,7 +8,7 @@ export default function Orderlist() {
   
     const[data,setdata]=useState([]);
     const[state,setstate]=useState({status:""})
-     const url = "http://localhost:4000"
+     const url = "https://fooddelivery3-1.onrender.com"
     const fetchorder=async()=>{
      
            try {
